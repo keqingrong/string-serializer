@@ -1,0 +1,36 @@
+{
+  "name": "string-serializer",
+  "version": "1.0.0",
+  "description": "A JavaScript utility for parsing and stringifying values",
+  "main": "dist/string-serializer.umd.js",
+  "module": "dist/string-serializer.esm.js",
+  "unpkg": "dist/string-serializer.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c && npm run minify",
+    "minify": "terser dist/string-serializer.umd.js --comments -c -m -o dist/string-serializer.umd.min.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "serializer",
+    "deserializer",
+    "parser",
+    "parse",
+    "stringify"
+  ],
+  "author": "Qingrong Ke <keqingrong@outlook.com> (https://keqingrong.github.io/)",
+  "license": "MIT",
+  "repository": "keqingrong/string-serializer",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.7.0",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "rollup": "^1.31.0",
+    "terser": "^4.6.3"
+  }
+}
