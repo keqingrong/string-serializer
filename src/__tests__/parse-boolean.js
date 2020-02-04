@@ -1,4 +1,4 @@
-const { parseBoolean } = require('../parse-boolean');
+const { parseBoolean } = require('..');
 
 test('Test parseBoolean', () => {
   expect(parseBoolean('true')).toBe(true);

@@ -1,4 +1,4 @@
-const { stringifyObject } = require('../stringify-object');
+const { stringifyObject } = require('..');
 
 test('Test stringifyObject', () => {
   expect(stringifyObject(null)).toBe('');

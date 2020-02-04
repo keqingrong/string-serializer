@@ -1,4 +1,4 @@
-const { stringifyArray } = require('../stringify-array');
+const { stringifyArray } = require('..');
 
 test('Test stringifyArray', () => {
   expect(stringifyArray(null)).toBe('');

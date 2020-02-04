@@ -1,4 +1,4 @@
-const { parseArray } = require('../parse-array');
+const { parseArray } = require('..');
 
 test('Test parseArray', () => {
   expect(parseArray(null)).toBe(null);

@@ -1,4 +1,4 @@
-const { parseObject } = require('../parse-object');
+const { parseObject } = require('..');
 
 test('Test parseObject', () => {
   expect(parseObject(undefined)).toBe(undefined);

@@ -1,4 +1,4 @@
-const { parseInt, parseFloat } = require('../parse-number');
+const { parseInt, parseFloat } = require('..');
 
 test('Test parseInt', () => {
   expect(parseInt('1.33')).toBe(1);
