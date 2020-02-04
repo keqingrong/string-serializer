@@ -17,10 +17,13 @@ The CDN build is also available on unpkg:
 
 ## API
 
-- parseArray()
-- parseObject()
-- stringifyArray()
-- stringifyObject()
+- `parseArray()`
+- `parseObject()`
+- `parseBoolean()`
+- `parseInt()`: An alias for `Number.parseInt()`
+- `parseFloat()`: An alias for `Number.parseFloat()`
+- `stringifyArray()`
+- `stringifyObject()`
 
 ## Usage
 
