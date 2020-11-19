@@ -5,6 +5,7 @@
   "main": "dist/string-serializer.umd.js",
   "module": "dist/string-serializer.esm.js",
   "unpkg": "dist/string-serializer.umd.min.js",
+  "types": "types/index.d.ts",
   "files": [
     "dist"
   ],
